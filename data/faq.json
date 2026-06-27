@@ -1,0 +1,256 @@
+[
+{
+"question":"What laptop is this?",
+"answer":"This is a SmartBook Pro laptop designed for students, coding and daily productivity."
+},
+
+{
+"question":"What processor does it have?",
+"answer":"It comes with an Intel i7 processor for smooth performance."
+},
+
+{
+"question":"How much RAM does it have?",
+"answer":"It has 16GB RAM for multitasking."
+},
+
+{
+"question":"What is the storage capacity?",
+"answer":"It has 512GB SSD storage for fast loading and file storage."
+},
+
+{
+"question":"Is it good for gaming?",
+"answer":"Yes, it supports casual and medium-level gaming."
+},
+
+{
+"question":"What is the battery life?",
+"answer":"The battery lasts up to 8 hours depending on usage."
+},
+
+{
+"question":"Does it have warranty?",
+"answer":"Yes, it comes with 1 year manufacturer warranty."
+},
+
+{
+"question":"Can students use it?",
+"answer":"Yes, it is suitable for students, online classes and projects."
+},
+
+{
+"question":"Is it lightweight?",
+"answer":"Yes, it is portable and easy to carry."
+},
+
+{
+"question":"Which operating system does it use?",
+"answer":"It uses Windows operating system."
+},
+
+
+{
+"question":"What is the display size?",
+"answer":"It has a 15.6 inch Full HD display."
+},
+
+{
+"question":"Does it support WiFi?",
+"answer":"Yes, it supports high speed WiFi connectivity."
+},
+
+{
+"question":"Does it have Bluetooth?",
+"answer":"Yes, Bluetooth connectivity is available."
+},
+
+{
+"question":"Does it have a webcam?",
+"answer":"Yes, it includes an HD webcam for video calls."
+},
+
+{
+"question":"Is keyboard backlit?",
+"answer":"Yes, it has a comfortable backlit keyboard."
+},
+
+{
+"question":"Does it have a touch screen?",
+"answer":"No, this model uses a standard display."
+},
+
+{
+"question":"How fast does it boot?",
+"answer":"The SSD allows fast startup within seconds."
+},
+
+{
+"question":"Can I upgrade RAM?",
+"answer":"RAM upgrade depends on the specific model configuration."
+},
+
+{
+"question":"Can I upgrade storage?",
+"answer":"Yes, storage can be upgraded on supported models."
+},
+
+{
+"question":"Does it support coding?",
+"answer":"Yes, it is good for programming and development."
+},
+
+
+{
+"question":"Can I run Python on it?",
+"answer":"Yes, Python and programming tools work smoothly."
+},
+
+{
+"question":"Can I edit videos?",
+"answer":"Yes, it supports basic and medium video editing."
+},
+
+{
+"question":"Can I use it for AI projects?",
+"answer":"Yes, it can run AI development tools for learning projects."
+},
+
+{
+"question":"Is it good for office work?",
+"answer":"Yes, it is suitable for documents, presentations and meetings."
+},
+
+{
+"question":"Does it have HDMI?",
+"answer":"Yes, HDMI support is available."
+},
+
+{
+"question":"How many USB ports are available?",
+"answer":"It includes multiple USB ports for accessories."
+},
+
+{
+"question":"Does it support headphones?",
+"answer":"Yes, it supports wired and Bluetooth headphones."
+},
+
+{
+"question":"Is the charger included?",
+"answer":"Yes, the charger comes with the laptop."
+},
+
+{
+"question":"What colors are available?",
+"answer":"It is available in premium black and silver colors."
+},
+
+{
+"question":"Is it durable?",
+"answer":"Yes, it is designed for regular daily use."
+},
+
+
+{
+"question":"What is the price?",
+"answer":"The price depends on the selected configuration."
+},
+
+{
+"question":"Where can I buy it?",
+"answer":"You can buy it from authorized stores or online platforms."
+},
+
+{
+"question":"Is there a discount?",
+"answer":"Discounts depend on current offers."
+},
+
+{
+"question":"Can I return it?",
+"answer":"Return policy depends on the seller."
+},
+
+{
+"question":"Does it heat while using?",
+"answer":"Normal heating may occur during heavy usage."
+},
+
+{
+"question":"Does it have cooling fans?",
+"answer":"Yes, it has a cooling system to manage temperature."
+},
+
+{
+"question":"How is the performance?",
+"answer":"It provides fast and reliable performance for daily tasks."
+},
+
+{
+"question":"Can I watch movies on it?",
+"answer":"Yes, the Full HD display is good for entertainment."
+},
+
+{
+"question":"Can I use it for online meetings?",
+"answer":"Yes, webcam and microphone support online meetings."
+},
+
+{
+"question":"Is antivirus included?",
+"answer":"Security software availability depends on the operating system package."
+},
+
+
+{
+"question":"What apps can I install?",
+"answer":"You can install apps, browsers, coding tools and productivity software."
+},
+
+{
+"question":"Does it support gaming mouse?",
+"answer":"Yes, external gaming accessories can be connected."
+},
+
+{
+"question":"Is it good for college students?",
+"answer":"Yes, it is a good choice for college work and projects."
+},
+
+{
+"question":"Can I connect external monitor?",
+"answer":"Yes, external monitors can be connected using supported ports."
+},
+
+{
+"question":"Does it have speakers?",
+"answer":"Yes, it has built-in speakers."
+},
+
+{
+"question":"How is audio quality?",
+"answer":"It provides clear audio for entertainment and calls."
+},
+
+{
+"question":"Can I use it for browsing?",
+"answer":"Yes, web browsing works smoothly."
+},
+
+{
+"question":"Does it support MS Office?",
+"answer":"Yes, office applications can be used."
+},
+
+{
+"question":"Is it beginner friendly?",
+"answer":"Yes, it is easy to use for beginners."
+},
+
+{
+"question":"Why should I buy this laptop?",
+"answer":"It offers good performance, portability and features for everyday users."
+}
+
+]

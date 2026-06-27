@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SmartBook Assistant</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="app">
+
+<div class="sidebar">
+
+<div class="logo">
+<img src="{{ url_for('static', filename='bot.png') }}">
+</div>
+
+<h2>SmartBook</h2>
+<p>Laptop Assistant</p>
+
+
+<div class="menu active" onclick="showInfo('chat')">
+💬 New Chat
+</div>
+
+<div class="menu" onclick="showInfo('product')">
+📦 Product Info
+</div>
+
+<div class="menu" onclick="showInfo('features')">
+⚙ Features
+</div>
+
+<div class="menu" onclick="showInfo('help')">
+❓ Help
+</div>
+
+<div class="menu" onclick="showInfo('about')">
+ⓘ About
+</div>
+
+
+<div class="product-card">
+💻 SmartBook Pro
+<br>
+Fast • Powerful • Reliable
+</div>
+
+
+<div class="online">
+🟢 Online
+<br>
+Ready to help
+</div>
+
+</div>
+
+
+
+<div class="chat-area">
+
+
+<div class="header">
+
+<div>
+
+<h1>🤖 SmartBook Assistant</h1>
+
+<p>Ask me anything about the laptop</p>
+
+</div>
+
+<a href="/clear">🗑</a>
+
+</div>
+
+
+
+<div class="chat-box" id="chatBox">
+
+
+{% for msg in messages %}
+
+{% if msg.type=="user" %}
+
+<div class="user-msg">
+{{msg.text}}
+</div>
+
+{% else %}
+
+<div class="bot-msg">
+{{msg.text}}
+</div>
+
+{% endif %}
+
+{% endfor %}
+
+
+</div>
+
+
+
+
+<form method="POST" class="input">
+
+<input
+type="text"
+name="question"
+placeholder="Type your message..."
+required>
+
+<button>
+➤
+</button>
+
+</form>
+
+
+</div>
+
+
+
+
+<div id="infoBox" class="info-box">
+
+</div>
+
+
+</div>
+
+
+
+
+<script>
+let chat=document.getElementById("chatBox");
+let input=document.querySelector(".input input");
+
+chat.scrollTop=chat.scrollHeight;
+
+window.onload=function(){
+    input.focus();
+};
+
+
+document.addEventListener("click",function(e){
+
+    if(e.target!==input){
+
+        input.focus();
+
+    }
+
+});
+
+
+
+function showInfo(type){
+
+let box=document.getElementById("infoBox");
+
+
+
+if(type=="chat"){
+
+box.innerHTML="";
+box.style.display="none";
+
+return;
+
+}
+
+
+
+box.style.display="block";
+
+
+
+if(type=="product"){
+
+box.innerHTML=`
+
+<h2>📦 Product Info</h2>
+
+<p><b>Model:</b> SmartBook Pro</p>
+
+<ul>
+<li>💻 Intel Core i5 Processor</li>
+<li>🚀 16GB RAM</li>
+<li>💾 512GB SSD</li>
+<li>🖥 15.6 inch Full HD Display</li>
+<li>🔋 8 Hour Battery</li>
+<li>🪟 Windows 11</li>
+<li>🛡 1 Year Warranty</li>
+</ul>
+
+`;
+
+}
+
+
+
+else if(type=="features"){
+
+box.innerHTML=`
+
+<h2>⚙ Features</h2>
+
+<ul>
+<li>⚡ High Performance</li>
+<li>🎮 Gaming Support</li>
+<li>🔋 Fast Charging</li>
+<li>⌨ Backlit Keyboard</li>
+<li>🎥 HD Camera</li>
+<li>🔊 Premium Audio</li>
+<li>🔒 Fingerprint Security</li>
+</ul>
+
+`;
+
+}
+
+
+
+else if(type=="help"){
+
+box.innerHTML=`
+
+<h2>❓ Help</h2>
+
+<p>Need help with:</p>
+
+<ul>
+<li>💻 Laptop Setup</li>
+<li>📶 WiFi Problems</li>
+<li>🔋 Battery Issues</li>
+<li>🛠 Warranty Support</li>
+<li>📥 Software Installation</li>
+</ul>
+
+`;
+
+}
+
+
+
+else if(type=="about"){
+
+box.innerHTML=`
+
+<h2>ⓘ About</h2>
+
+<p>
+SmartBook Pro is designed for students,
+developers and professionals.
+</p>
+
+<p>
+This AI chatbot helps users with laptop
+features, specifications and support.
+</p>
+
+`;
+
+}
+
+}
+
+
+</script>
+
+
+</body>
+</html>

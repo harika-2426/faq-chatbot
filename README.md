@@ -1,10 +1,10 @@
-# 🤖 SmartBook FAQ Chatbot
+# 🤖 FAQ Chatbot
 
-## 📌 Project Overview
+## 📌 Overview
 
-SmartBook FAQ Chatbot is an interactive AI-based product assistant designed to answer user questions about a laptop product.
+FAQ Chatbot is an interactive AI-based product assistant developed using Python and Flask.
 
-The chatbot provides quick responses related to product information, features, specifications, help, and general user queries through a simple messaging interface.
+The chatbot helps users by answering questions related to a product, providing information, features, support details, and general queries through a messaging-style interface.
 
 ---
 
@@ -13,13 +13,12 @@ The chatbot provides quick responses related to product information, features, s
 - 💬 Real-time chat interface
 - 🤖 Product-based FAQ assistant
 - 📦 Product information section
-- ⚙️ Features section
+- ⚙ Features section
 - ❓ Help and support section
 - ℹ️ About section
-- 🗨️ WhatsApp-style messaging UI
-- 🔄 Previous chat messages displayed
-- 📱 Responsive design for mobile, tablet, and desktop
-- 🎨 Attractive modern chatbot interface
+- 🗨️ Chat message history display
+- 📱 Responsive design
+- 🎨 Modern chatbot UI
 
 ---
 
@@ -35,19 +34,19 @@ The chatbot provides quick responses related to product information, features, s
 
 ## 📂 Project Structure
 
-SmartBook_Chatbot
+CodeAplha_FAQ_Chatbot
 
-│── app.py
-│── chatbot.py
-│── requirements.txt
-│── README.md
-
-│── templates
-│ └── index.html
-
-│── static
-├── style.css
-└── bot.png
+├── app.py  
+├── chatbot.py  
+├── requirements.txt  
+├── README.md  
+│
+├── templates  
+│   └── index.html  
+│
+└── static  
+    ├── style.css  
+    └── bot.png  
 
 ---
 
@@ -55,33 +54,47 @@ SmartBook_Chatbot
 
 Clone the repository:
 
-Go to project folder:
+git clone https://github.com/harika-2426/CodeAlpha_FAQChatbot.git
 
-Install required packages:
+
+Install dependencies:
+
+pip install -r requirements.txt
+
 
 ---
 
-## ▶️ Run the Project
+## ▶️ Run Project
 
-Start Flask application:
+Start chatbot:
+
+python app.py
+
 
 Open browser:
-http://127.0.01:5000
+
+http://127.0.0.1:5000
 
 ---
 
-## 💡 Chatbot Capabilities
+## 🔍 Working Process
 
-The chatbot can answer questions about:
+1. User sends a message
+2. Chatbot analyzes the question
+3. Finds the suitable response
+4. Displays answer in chat format
+5. Stores previous conversation
 
-- Laptop specifications
-- Processor
-- RAM and storage
-- Battery
-- Warranty
+---
+
+## 💡 Chatbot Can Answer
+
+- Product details
+- Specifications
 - Features
-- Product support
-- Basic user questions
+- Warranty information
+- Support questions
+- General queries
 
 ---
 
@@ -89,30 +102,28 @@ The chatbot can answer questions about:
 
 This project demonstrates:
 
-- Web application development
-- Chatbot logic implementation
-- User interface design
+- Chatbot development
 - Flask backend integration
-- Interactive customer support system
+- Frontend UI design
+- Customer support automation
 
 ---
 
 ## 🚀 Future Improvements
 
-- Add voice input and output
-- Connect with AI APIs
-- Add database for chat history
+- Add AI API integration
 - Improve natural language understanding
-- Add more products
+- Add voice conversation
+- Store chat history database
 
 ---
 
 ## 👩‍💻 Developed For
 
-CodeAlpha Internship Task 2
+CodeAlpha Artificial Intelligence Internship
+
+Task 2: FAQ Chatbot
 
 ## 🌐 Live Demo
 
-🔗 Live Website:
-
-[faq chatbot](https://faq-chatbot-h6ar.onrender.com)
+[faq_chatbot](https://faq-chatbot-h6ar.onrender.com)
